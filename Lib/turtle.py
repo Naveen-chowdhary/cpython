@@ -191,7 +191,7 @@ def config_dict(filename):
         cfgdict[key] = value
     return cfgdict
 
-def readconfig(cfgdict):
+
     """Read config-files, change configuration-dict accordingly.
 
     If there is a turtle.cfg file in the current working directory,
